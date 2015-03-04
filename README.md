@@ -2,7 +2,13 @@
 
 ## Install
 
+### Clone
+
     git clone git@github.com:BorePlusPlus/.vim.git
+
+### Powerline
+
+    pip install powerline-status
 
 ### Symlink
 
