@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 filetype plugin on
 
 set number
