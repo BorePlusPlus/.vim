@@ -14,3 +14,9 @@
 
     ln -s ~/.vim/vimrc ~/.vimrc
 
+### Submodules
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
+
