@@ -5,6 +5,7 @@ filetype plugin on
 set number
 set background=dark
 set scrolloff=3
+let mapleader=" "
 
 " Use 4 spaces to indent
 set expandtab
