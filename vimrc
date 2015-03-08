@@ -43,3 +43,7 @@ let g:ctrlp_custom_ignore = {
     \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$\|node_modules$',
     \ 'file': '\v\.(exe|so|dll)$',
     \ }
+
+" netrw
+map <leader>k :E<cr>
+let g:netrw_liststyle=3
