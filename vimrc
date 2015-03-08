@@ -36,3 +36,9 @@ set colorcolumn=80
 
 " YouCompleteMe
 let g:ycm_autoclose_preview_window_after_completion=1
+
+" ctrlp.vim
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$\|node_modules$',
+    \ 'file': '\v\.(exe|so|dll)$',
+    \ }
