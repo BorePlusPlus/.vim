@@ -5,6 +5,7 @@ filetype plugin on
 set number
 set background=dark
 set scrolloff=3
+set t_Co=256
 let mapleader=" "
 
 " Use 4 spaces to indent
@@ -47,3 +48,6 @@ let g:ctrlp_custom_ignore = {
 " netrw
 map <leader>k :E<cr>
 let g:netrw_liststyle=3
+
+" vim-better-whitespace
+autocmd VimEnter * ToggleStripWhitespaceOnSave
