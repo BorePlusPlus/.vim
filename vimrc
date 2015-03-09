@@ -51,3 +51,6 @@ let g:netrw_liststyle=3
 
 " vim-better-whitespace
 autocmd VimEnter * ToggleStripWhitespaceOnSave
+
+" delimitMate
+let delimitMate_expand_cr=1
