@@ -7,6 +7,7 @@ set background=dark
 set scrolloff=3
 set t_Co=256
 let mapleader=" "
+set conceallevel=1
 
 " Use 4 spaces to indent
 set expandtab
@@ -54,3 +55,7 @@ autocmd VimEnter * ToggleStripWhitespaceOnSave
 
 " delimitMate
 let delimitMate_expand_cr=1
+
+" vim-javascript
+let g:javascript_conceal=1
+let g:javascript_conceal_function="ƒ"
