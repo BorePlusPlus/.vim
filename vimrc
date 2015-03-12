@@ -47,7 +47,7 @@ let g:ctrlp_custom_ignore = {
     \ }
 
 " netrw
-map <leader>k :E<cr>
+map <leader>k :Explore<cr>
 let g:netrw_liststyle=3
 
 " vim-better-whitespace
