@@ -27,6 +27,12 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+" Faster movement betweem windows
+nnoremap <C-h> <C-w><C-h>
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+
 " Powerline
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
