@@ -8,6 +8,7 @@ set scrolloff=3
 set t_Co=256
 let mapleader=" "
 set conceallevel=1
+set autowriteall
 
 " Use 4 spaces to indent
 set expandtab
