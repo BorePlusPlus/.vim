@@ -66,3 +66,4 @@ let delimitMate_expand_cr=1
 " vim-javascript
 let g:javascript_conceal=1
 let g:javascript_conceal_function="ƒ"
+let g:javascript_conceal_return="⇚"
