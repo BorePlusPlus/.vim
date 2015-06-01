@@ -9,6 +9,7 @@ set t_Co=256
 let mapleader=" "
 set conceallevel=1
 set autowriteall
+set clipboard=unnamedplus
 
 " Use 4 spaces to indent
 set expandtab
